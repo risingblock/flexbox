@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    margin: 10px;
     border: 10px solid goldenrod;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
 }
 
 .box {
